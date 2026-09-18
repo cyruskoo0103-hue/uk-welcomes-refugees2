@@ -92,7 +92,10 @@
                 <!-- Brand Logo -->
                 <a href="#home" onclick="navigateTo('home')" class="flex items-center group py-2" title="UK Welcomes Refugees Home">
                     <div class="flex items-center gap-3">
-                        <img src="https://myimgs.org/storage/images/39623/471227485_1147766650299275_8657846081151404484_n.jpg" alt="UK Welcomes Refugees Logo" class="h-14 sm:h-16 w-auto object-contain transition-transform group-hover:scale-105 duration-200 rounded-md">
+                        <img src="https://myimgs.org/storage/images/39623/471227485_1147766650299275_8657846081151404484_n.jpg" 
+                             onerror="this.onerror=null; this.src='https://placehold.co/200x80/0f172a/14b8a6?text=UK+Welcomes+Refugees';" 
+                             alt="UK Welcomes Refugees Logo" 
+                             class="h-14 sm:h-16 w-auto object-contain transition-transform group-hover:scale-105 duration-200 rounded-md">
                     </div>
                 </a>
 
@@ -135,7 +138,10 @@
             <!-- Hero Section -->
             <section class="relative bg-slate-900 text-white py-24 lg:py-32 overflow-hidden">
                 <div class="absolute inset-0 z-0 opacity-40">
-                    <img src="https://myimgs.org/storage/images/39623/471227485_1147766650299275_8657846081151404484_n.jpg" alt="UK Welcomes Refugees Banner" class="w-full h-full object-cover">
+                    <img src="https://images.unsplash.com/photo-1511632765486-a01980e01a18?auto=format&fit=crop&q=80&w=1600" 
+                         onerror="this.onerror=null; this.src='https://placehold.co/1600x900/0f172a/334155?text=Community+Sanctuary';" 
+                         alt="UK Welcomes Refugees Banner" 
+                         class="w-full h-full object-cover">
                 </div>
                 <div class="absolute inset-0 bg-gradient-to-r from-slate-950 via-slate-900/90 to-slate-950/70 z-0"></div>
                 
@@ -370,8 +376,11 @@
                 <div class="grid md:grid-cols-3 gap-8">
                     <!-- Team Member 1 -->
                     <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm text-center">
-                        <div class="h-64 bg-slate-800 flex items-center justify-center text-slate-400">
-                            <i class="fa-solid fa-user-check text-6xl"></i>
+                        <div class="h-64 bg-slate-800 flex items-center justify-center text-slate-400 overflow-hidden">
+                            <img src="https://myimgs.org/storage/images/40608/Sean-Ryan-Headshot.jpg" 
+                                 onerror="this.onerror=null; this.src='https://placehold.co/400x400/0f172a/14b8a6?text=Sean+Ryan+MBE';" 
+                                 alt="Sean Ryan MBE" 
+                                 class="w-full h-full object-cover object-top">
                         </div>
                         <div class="p-6">
                             <h3 class="font-bold text-lg text-slate-900">Sean Ryan MBE</h3>
@@ -382,8 +391,11 @@
 
                     <!-- Team Member 2 -->
                     <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm text-center">
-                        <div class="h-64 bg-slate-700 flex items-center justify-center text-slate-400">
-                            <i class="fa-solid fa-list-check text-6xl"></i>
+                        <div class="h-64 bg-slate-700 flex items-center justify-center text-slate-400 overflow-hidden">
+                            <img src="https://myimgs.org/storage/images/40610/Hei-768x1024.jpg" 
+                                 onerror="this.onerror=null; this.src='https://placehold.co/400x400/0f172a/14b8a6?text=Hei+Chow';" 
+                                 alt="Hei Chow" 
+                                 class="w-full h-full object-cover object-top">
                         </div>
                         <div class="p-6">
                             <h3 class="font-bold text-lg text-slate-900">Hei Chow</h3>
@@ -393,14 +405,21 @@
                     </div>
 
                     <!-- Team Member 3 -->
-                    <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm text-center">
-                        <div class="h-64 bg-slate-800 flex items-center justify-center text-slate-400">
-                            <i class="fa-solid fa-heart-circle-bolt text-6xl"></i>
+                    <div class="bg-white rounded-2xl overflow-hidden border border-slate-200 shadow-sm">
+                        <div class="h-64 bg-slate-800 flex items-center justify-center text-slate-400 overflow-hidden">
+                            <img src="https://ukwelcomesrefugees.org/wp-content/uploads/2024/02/Ho-Auyeung-1024x768.jpeg" 
+                                 onerror="this.onerror=null; this.src='https://placehold.co/400x400/0f172a/14b8a6?text=Ho+Auyeung';" 
+                                 alt="Ho Auyeung" 
+                                 class="w-full h-full object-cover object-top">
                         </div>
-                        <div class="p-6">
-                            <h3 class="font-bold text-lg text-slate-900">Joy Lam</h3>
-                            <p class="text-xs text-brand-600 font-semibold mb-3">Rebuilding Belonging Lead</p>
-                            <p class="text-slate-600 text-xs leading-relaxed">Focuses on social cohesion, mutual integration schemes, and welcoming projects for newcomers across communities.</p>
+                        <div class="p-6 text-left">
+                            <h3 class="font-bold text-lg text-slate-900 text-center">Ho Auyeung</h3>
+                            <p class="text-xs text-brand-600 font-semibold mb-3 text-center">Project Leader</p>
+                            <div class="text-slate-600 text-xs leading-relaxed space-y-2">
+                                <p>Ho is an experienced Social Worker and counsellor from Hong Kong. Hei brings over 14 years of expertise in providing support services for the elderly and those with mental health needs; with a particular focus on depression and anxiety. Ho strongly believes in three core principles that underpin his work with every individual – joy; fairness and safety.</p>
+                                <p>After migrating from Hong Kong to the UK, Ho has been actively involved in various community initiatives, serving both the Hong Kong community and other diverse groups.</p>
+                                <p>Ho believes in empowering individuals to discover their abundant choices in life, not least by addressing their mental health and well-being and by connecting them with other people and the wider community.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -859,7 +878,10 @@
             <div class="grid grid-cols-1 md:grid-cols-4 gap-8 mb-8">
                 <div>
                     <a href="#" onclick="navigateTo('home'); return false;" class="inline-block mb-4">
-                        <img src="https://myimgs.org/storage/images/39623/471227485_1147766650299275_8657846081151404484_n.jpg" alt="UK Welcomes Refugees Logo" class="h-14 w-auto object-contain rounded-md border border-slate-800 shadow-sm">
+                        <img src="https://myimgs.org/storage/images/39623/471227485_1147766650299275_8657846081151404484_n.jpg" 
+                             onerror="this.onerror=null; this.src='https://placehold.co/200x80/0f172a/14b8a6?text=UK+Welcomes+Refugees';" 
+                             alt="UK Welcomes Refugees Logo" 
+                             class="h-14 w-auto object-contain rounded-md border border-slate-800 shadow-sm">
                     </a>
                     <p class="leading-relaxed text-slate-500">Registered UK Charity (1195770) & Company (12679315). Dedicated to community-led resettlement, safe sanctuary routes, and local refugee integration across the UK.</p>
                 </div>
